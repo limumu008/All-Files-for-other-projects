@@ -1,0 +1,20 @@
+# Insert an image to the Gist
+
+1. Open Git Bash and clone your gist:
+# with ssh
+git clone git@gist.github.com:<hash>.git mygist
+
+# with https
+git clone https://gist.github.com/<hash>.git mygist
+
+2. Change to your gist's diretory:
+cd mygist
+
+3. Move to your image to your local mygist directory
+
+4. Add and commit the image:
+git add tulip.jpg
+git commit -m "Add tulip to gist"
+
+5.Update:
+git push origin master
